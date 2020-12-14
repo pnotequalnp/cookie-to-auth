@@ -22,3 +22,4 @@ jobs:
           experimental-features = nix-command flakes
 
     - run: nix build
+    - run: nix build '.#docker'
