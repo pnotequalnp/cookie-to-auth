@@ -3,8 +3,8 @@
 
 <div style="display: flex;">
   <img src="https://nixos.wiki/images/thumb/2/20/Home-nixos-logo.png/207px-Home-nixos-logo.png" height="50px"/>
-  <img src="http://jwt.io/img/logo-asset.svg" height="50px"/>
   <img src="https://graphql-engine-cdn.hasura.io/img/hasura_logo_horizontal_white.svg" height="50px"/>
+  <img src="http://jwt.io/img/logo-asset.svg" height="50px"/>
 </div>
 
 # cookie-to-auth
