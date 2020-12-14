@@ -9,7 +9,7 @@
 
       pkg = hs.callCabal2nix "cookieToAuth" ./. {};
       docker = pkgs.dockerTools.buildImage {
-        name = "pnotequalnp/cookieToAuth";
+        name = "pnotequalnp/cookie-to-auth";
         tag = "0.1.0.0";
         contents = [ pkg ];
         config.Cmd = [ "cookieToAuth" ];
