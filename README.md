@@ -11,3 +11,23 @@
 This is a tiny service which moves a [JWT](https://jwt.io/) from a `jwt`
 cookie into an `Authorization` header in the format expected by
 [Hasura](https://hasura.io/) before redirecting the request.
+
+## Installation
+
+### Docker
+```bash
+docker pull pnotequalnp/cookie-to-auth
+```
+
+### Nix (flake)
+```bash
+nix build 'github:pnotequalnp/cookie-to-auth'
+```
+
+### Cabal
+Requires ghc 8.8.4, cabal-install 3.2
+```bash
+git clone https://github.com/pnotequalnp/cookie-to-auth.git
+cd cookie-to-auth
+cabal install
+```
