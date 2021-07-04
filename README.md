@@ -25,7 +25,7 @@ nix build 'github:pnotequalnp/cookie-to-auth'
 ```
 
 ### Cabal
-Requires ghc 8.8.4, cabal-install 3.2
+Requires ghc 8.10.4, cabal-install 3.2
 ```bash
 git clone https://github.com/pnotequalnp/cookie-to-auth.git
 cd cookie-to-auth
